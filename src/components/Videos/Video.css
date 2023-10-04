@@ -1,0 +1,28 @@
+.Clogo {
+  height: 20px;
+  margin-top: 25px;
+  margin-right: 5px;
+}
+.Box {
+  margin: 8px;
+  width: 250px;
+  padding: 8px;
+  font-size: small;
+}
+
+.Dec {
+  display: flex;
+  flex-direction: row;
+}
+.Start {
+  height: 120px;
+  border-radius: 4px;
+}
+
+.Dot {
+  margin-bottom: 50px;
+}
+.Get {
+  text-decoration: none;
+  color: black;
+}

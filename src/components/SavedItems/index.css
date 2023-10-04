@@ -1,0 +1,35 @@
+.SavedMain {
+  background-color: white;
+  margin: 20px;
+  padding: 6px;
+  height: 200px;
+  width: 800px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: medium;
+  font-family: Times New Roman;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Thumb {
+  height: 180px;
+  width: 300px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 460px) {
+  .SavedMain {
+    width: 400px;
+    padding: 2px;
+    height: 160px;
+    margin: 10px;
+    font-size: x-small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .Thumb {
+    height: 120px;
+    width: 140px;
+    padding-right: 20px;
+  }
+}

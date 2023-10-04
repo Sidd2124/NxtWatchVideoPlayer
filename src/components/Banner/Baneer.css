@@ -1,0 +1,56 @@
+.BannerOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.banerlogout {
+  background-color: white;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  height: 20px;
+  margin-top: 12px;
+}
+.Profile {
+  margin: 10px;
+  margin-top: 10px;
+  font-size: x-larger;
+}
+.Bright {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: medium;
+  font-size: x-large;
+}
+
+.BanerPic {
+  height: 50px;
+}
+
+.Pop {
+  background-color: #383838;
+  border-radius: 4px;
+  color: White;
+  width: 120px;
+  margin: 10px;
+  font-size: xx-small;
+  padding: 10px;
+}
+
+.cancel {
+  border: 1px solid white;
+  background-color: #383838;
+  color: white;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: smaller;
+}
+
+.banerlogoutOne {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 4px;
+  border: 0.3px solid white;
+  font-size: smaller;
+}

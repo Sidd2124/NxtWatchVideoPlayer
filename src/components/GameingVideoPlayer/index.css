@@ -1,0 +1,138 @@
+.VideoPlayingTop {
+  background-color: white;
+  height: 100vh;
+}
+
+.LayerOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.MainPlayer {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 850px;
+  width: 1130px;
+  padding: 10px;
+  color: black;
+  overflow: auto;
+  font-size: large;
+  overflow: auto;
+}
+.Ride {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Rides {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 20px;
+}
+
+.Like {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 8px;
+  color: black;
+}
+
+.Likeing {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+}
+
+.Likes {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+}
+.lastOne {
+  width: 300px;
+}
+
+.Sd {
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.Sds {
+  margin-top: 20px;
+}
+.ChannelLogo {
+  height: 30px;
+  border-radius: 20px;
+}
+
+.Gets {
+  margin: 10px;
+}
+
+.Player {
+  width: 200px;
+  background-color: red;
+}
+.ColoreOne {
+  color: black;
+}
+.ColorTwo {
+  color: #3b82f6;
+}
+
+.ReactPlayers {
+  height: 200px;
+  background-color: green;
+  width: 1200px;
+}
+
+.Try {
+  background-color: orange;
+  position: absolute;
+  z-index: 10;
+  bottom: -100%;
+  transition: 0.5s;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.Card:hover .Try {
+  bottom: 0;
+}
+@media Screen and (max-width: 460px) {
+  .LayerOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .MainPlayer {
+    width: 375px;
+    height: 590px;
+    margin: 8px;
+    font-size: small;
+    border-radius: 4px;
+  }
+  .LayerOne {
+    width: 395px;
+  }
+  .ReactPlayers {
+    width: 350px;
+    height: 230px;
+  }
+  .Sd {
+    margin-top: 17px;
+    margin-right: 5px;
+  }
+  .Publish {
+    font-size: xx-small;
+    margin-left: 0px;
+  }
+  .Published {
+    font-size: xx-small;
+    margin-left: 10px;
+  }
+}

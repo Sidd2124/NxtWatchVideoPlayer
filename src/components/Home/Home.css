@@ -1,0 +1,118 @@
+.Videoslist {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 1100px;
+  overflow: auto;
+}
+
+.VideoslistOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+.First {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.NoVideos {
+  height: 300px;
+}
+.Load {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Warning {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  margin: 10px;
+}
+.Dark {
+  background-color: #424242;
+  color: white;
+}
+.Bright {
+  background-color: white;
+}
+.Day {
+  box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 460px) {
+  .Videoslist {
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+  }
+  .First {
+    display: flex;
+    flex-direction: column;
+  }
+  .Side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .BannerOne {
+    width: 350px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .BanerPic {
+    height: 30px;
+    margin-top: 10px;
+  }
+  .Re {
+    background-color: white;
+    padding: 2px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Icons {
+    font-size: 15px;
+    margin-top: 7px;
+  }
+  .Day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .Box {
+    width: 360px;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 6px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Start {
+    height: 200px;
+  }
+  .Starting {
+    width: 280px;
+  }
+}
